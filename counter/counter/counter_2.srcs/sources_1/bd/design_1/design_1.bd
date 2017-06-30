@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<bd:repository xmlns:bd="http://www.xilinx.com/bd" bd:BoundaryCRC="0xDD08B543E7895716" bd:device="xc7a35tcsg324-1" bd:isValidated="true" bd:synthFlowMode="None" bd:tool_version="2017.1" bd:top="design_1" bd:version="1.00.a">
+
+  <spirit:component xmlns:spirit="http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009">
+    <spirit:vendor>xilinx.com</spirit:vendor>
+    <spirit:library>BlockDiagram</spirit:library>
+    <spirit:name>design_1</spirit:name>
+    <spirit:version>1.00.a</spirit:version>
+    <spirit:parameters>
+      <spirit:parameter>
+        <spirit:name>isTop</spirit:name>
+        <spirit:value spirit:format="bool" spirit:resolve="immediate">true</spirit:value>
+      </spirit:parameter>
+    </spirit:parameters>
+    <spirit:model>
+      <spirit:views>
+        <spirit:view>
+          <spirit:name>BlockDiagram</spirit:name>
+          <spirit:envIdentifier>:vivado.xilinx.com:</spirit:envIdentifier>
+          <spirit:hierarchyRef spirit:library="BlockDiagram" spirit:name="design_1_imp" spirit:vendor="xilinx.com" spirit:version="1.00.a"/>
+        </spirit:view>
+      </spirit:views>
+      <spirit:ports>
+        <spirit:port>
+          <spirit:name>N</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>CLK</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>clr</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>A0</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>A1</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>A2</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>A3</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+      </spirit:ports>
+    </spirit:model>
+  </spirit:component>
+
+  <spirit:design xmlns:spirit="http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009">
+    <spirit:vendor>xilinx.com</spirit:vendor>
+    <spirit:library>BlockDiagram</spirit:library>
+    <spirit:name>design_1_imp</spirit:name>
+    <spirit:version>1.00.a</spirit:version>
+    <spirit:componentInstances>
+      <spirit:componentInstance>
+        <spirit:instanceName>JK_f_f_0</spirit:instanceName>
+        <spirit:componentRef spirit:library="user" spirit:name="JK_f_f" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">design_1_JK_f_f_0_0</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>JK_f_f_1</spirit:instanceName>
+        <spirit:componentRef spirit:library="user" spirit:name="JK_f_f" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">design_1_JK_f_f_1_0</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>JK_f_f_2</spirit:instanceName>
+        <spirit:componentRef spirit:library="user" spirit:name="JK_f_f" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">design_1_JK_f_f_2_0</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>JK_f_f_3</spirit:instanceName>
+        <spirit:componentRef spirit:library="user" spirit:name="JK_f_f" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">design_1_JK_f_f_3_0</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>AND_0</spirit:instanceName>
+        <spirit:componentRef spirit:library="user" spirit:name="AND" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">design_1_AND_0_0</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>AND_1</spirit:instanceName>
+        <spirit:componentRef spirit:library="user" spirit:name="AND" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">design_1_AND_1_0</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>AND_2</spirit:instanceName>
+        <spirit:componentRef spirit:library="user" spirit:name="AND" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">design_1_AND_2_0</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>AND_3</spirit:instanceName>
+        <spirit:componentRef spirit:library="user" spirit:name="AND" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">design_1_AND_3_0</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>AND_4</spirit:instanceName>
+        <spirit:componentRef spirit:library="user" spirit:name="AND" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">design_1_AND_4_0</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+    </spirit:componentInstances>
+    <spirit:adHocConnections>
+      <spirit:adHocConnection>
+        <spirit:name>AND_0_F</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="AND_0" spirit:portRef="F"/>
+        <spirit:internalPortReference spirit:componentRef="JK_f_f_0" spirit:portRef="K"/>
+        <spirit:internalPortReference spirit:componentRef="JK_f_f_1" spirit:portRef="K"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>JK_f_f_3_Q</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="JK_f_f_3" spirit:portRef="Q"/>
+        <spirit:internalPortReference spirit:componentRef="AND_0" spirit:portRef="A"/>
+        <spirit:internalPortReference spirit:componentRef="AND_1" spirit:portRef="A"/>
+        <spirit:internalPortReference spirit:componentRef="AND_4" spirit:portRef="A"/>
+        <spirit:internalPortReference spirit:componentRef="JK_f_f_2" spirit:portRef="K"/>
+        <spirit:internalPortReference spirit:componentRef="JK_f_f_2" spirit:portRef="J"/>
+        <spirit:externalPortReference spirit:portRef="A3"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>JK_f_f_2_Q</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="JK_f_f_2" spirit:portRef="Q"/>
+        <spirit:internalPortReference spirit:componentRef="AND_0" spirit:portRef="B"/>
+        <spirit:internalPortReference spirit:componentRef="AND_1" spirit:portRef="B"/>
+        <spirit:internalPortReference spirit:componentRef="AND_4" spirit:portRef="B"/>
+        <spirit:externalPortReference spirit:portRef="A2"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>AND_2_F</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="AND_2" spirit:portRef="F"/>
+        <spirit:internalPortReference spirit:componentRef="JK_f_f_0" spirit:portRef="J"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>AND_1_F</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="AND_1" spirit:portRef="F"/>
+        <spirit:internalPortReference spirit:componentRef="AND_2" spirit:portRef="A"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>JK_f_f_1_Q</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="JK_f_f_1" spirit:portRef="Q"/>
+        <spirit:internalPortReference spirit:componentRef="AND_2" spirit:portRef="B"/>
+        <spirit:externalPortReference spirit:portRef="A1"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>AND_3_F</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="AND_3" spirit:portRef="F"/>
+        <spirit:internalPortReference spirit:componentRef="JK_f_f_1" spirit:portRef="J"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>AND_4_F</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="AND_4" spirit:portRef="F"/>
+        <spirit:internalPortReference spirit:componentRef="AND_3" spirit:portRef="A"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>JK_f_f_0_Qb</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="JK_f_f_0" spirit:portRef="Qb"/>
+        <spirit:internalPortReference spirit:componentRef="AND_3" spirit:portRef="B"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>N_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="N"/>
+        <spirit:internalPortReference spirit:componentRef="JK_f_f_3" spirit:portRef="J"/>
+        <spirit:internalPortReference spirit:componentRef="JK_f_f_3" spirit:portRef="K"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>CLK_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="CLK"/>
+        <spirit:internalPortReference spirit:componentRef="JK_f_f_0" spirit:portRef="clk"/>
+        <spirit:internalPortReference spirit:componentRef="JK_f_f_1" spirit:portRef="clk"/>
+        <spirit:internalPortReference spirit:componentRef="JK_f_f_2" spirit:portRef="clk"/>
+        <spirit:internalPortReference spirit:componentRef="JK_f_f_3" spirit:portRef="clk"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>clr_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="clr"/>
+        <spirit:internalPortReference spirit:componentRef="JK_f_f_0" spirit:portRef="clr"/>
+        <spirit:internalPortReference spirit:componentRef="JK_f_f_1" spirit:portRef="clr"/>
+        <spirit:internalPortReference spirit:componentRef="JK_f_f_2" spirit:portRef="clr"/>
+        <spirit:internalPortReference spirit:componentRef="JK_f_f_3" spirit:portRef="clr"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>JK_f_f_0_Q</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="JK_f_f_0" spirit:portRef="Q"/>
+        <spirit:externalPortReference spirit:portRef="A0"/>
+      </spirit:adHocConnection>
+    </spirit:adHocConnections>
+  </spirit:design>
+
+</bd:repository>

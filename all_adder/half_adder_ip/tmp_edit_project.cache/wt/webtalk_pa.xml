@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pa" timeStamp="Thu Jun  1 00:06:48 2017">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="14d526ca0edb43ef8bc135d19ba67b32" type="ProjectID"/>
+<property name="ProjectIteration" value="1" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Vivado Synthesis Defaults" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="CloseProject" value="2" type="JavaHandler"/>
+<property name="CoreView" value="3" type="JavaHandler"/>
+<property name="CreateBlockDesign" value="3" type="JavaHandler"/>
+<property name="CustomizeRSBBlock" value="2" type="JavaHandler"/>
+<property name="EditDelete" value="3" type="JavaHandler"/>
+<property name="ExportIOPorts" value="1" type="JavaHandler"/>
+<property name="IPPackagerWizardHandler" value="4" type="JavaHandler"/>
+<property name="ManageCompositeTargets" value="2" type="JavaHandler"/>
+<property name="NewProject" value="2" type="JavaHandler"/>
+<property name="OpenBlockDesign" value="3" type="JavaHandler"/>
+<property name="OpenProject" value="1" type="JavaHandler"/>
+<property name="ToolsSettings" value="1" type="JavaHandler"/>
+<property name="ViewTaskProjectManager" value="1" type="JavaHandler"/>
+<property name="ViewTaskSynthesis" value="1" type="JavaHandler"/>
+</item>
+<item name="Gui Resources Info">
+<property name="AddRepositoryInfoDialog_OK" value="3" type="GuiResourceData"/>
+<property name="BaseDialog_OK" value="8" type="GuiResourceData"/>
+<property name="CoreAndInterfacesBaseTreeTablePanel_ADD_REPOSITORY" value="5" type="GuiResourceData"/>
+<property name="CoreAndInterfacesBaseTreeTablePanel_REMOVE_FROM_PROJECT" value="2" type="GuiResourceData"/>
+<property name="CoreBrowserView_GROUP_CORES_BY_TAXONOMY_OR_REPOSITORY" value="1" type="GuiResourceData"/>
+<property name="CoreTreeTablePanel_CORE_TREE_TABLE" value="66" type="GuiResourceData"/>
+<property name="CreateNewDiagramDialog_DESIGN_NAME" value="1" type="GuiResourceData"/>
+<property name="CreateNewDiagramDialog_SPECIFY_SOURCE_SET" value="1" type="GuiResourceData"/>
+<property name="FileSetPanel_FILE_SET_PANEL_TREE" value="18" type="GuiResourceData"/>
+<property name="FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE" value="12" type="GuiResourceData"/>
+<property name="IPCoreView_TABBED_PANE" value="2" type="GuiResourceData"/>
+<property name="MainMenuMgr_EDIT" value="4" type="GuiResourceData"/>
+<property name="MainMenuMgr_EXPORT" value="8" type="GuiResourceData"/>
+<property name="MainMenuMgr_FILE" value="14" type="GuiResourceData"/>
+<property name="MainMenuMgr_FLOORPLANNING" value="10" type="GuiResourceData"/>
+<property name="MainMenuMgr_FLOW" value="4" type="GuiResourceData"/>
+<property name="MainMenuMgr_IMPORT" value="1" type="GuiResourceData"/>
+<property name="MainMenuMgr_IO_PLANNING" value="12" type="GuiResourceData"/>
+<property name="MainMenuMgr_OPEN_RECENT_FILE" value="4" type="GuiResourceData"/>
+<property name="MainMenuMgr_OPEN_RECENT_IP_LOCATION" value="5" type="GuiResourceData"/>
+<property name="MainMenuMgr_OPEN_RECENT_PROJECT" value="9" type="GuiResourceData"/>
+<property name="MainMenuMgr_REPORT" value="7" type="GuiResourceData"/>
+<property name="MainMenuMgr_SETTINGS" value="1" type="GuiResourceData"/>
+<property name="MainMenuMgr_TIMING" value="11" type="GuiResourceData"/>
+<property name="MainMenuMgr_TOOLS" value="18" type="GuiResourceData"/>
+<property name="MainMenuMgr_WINDOW" value="8" type="GuiResourceData"/>
+<property name="MainWinMenuMgr_LAYOUT" value="4" type="GuiResourceData"/>
+<property name="NewIpWizard_INCLUDE_IP_GENERATED_FILES" value="1" type="GuiResourceData"/>
+<property name="NewIpWizard_IP_DEFINITION_SOURCE_LOCATION" value="2" type="GuiResourceData"/>
+<property name="NewIpWizard_PACKAGE_BLOCK_DESIGN_FROM_CURRENT" value="3" type="GuiResourceData"/>
+<property name="NewIpWizard_PACKAGE_YOUR_CURRENT_PROJECT_USE" value="3" type="GuiResourceData"/>
+<property name="PACommandNames_AUTO_UPDATE_HIER" value="8" type="GuiResourceData"/>
+<property name="PACommandNames_EXPORT_PINOUT" value="1" type="GuiResourceData"/>
+<property name="PACommandNames_GOTO_PROJECT_MANAGER" value="1" type="GuiResourceData"/>
+<property name="PACommandNames_IP_PACKAGER_WIZARD" value="4" type="GuiResourceData"/>
+<property name="PACommandNames_NEW_PROJECT" value="2" type="GuiResourceData"/>
+<property name="PACommandNames_OPEN_PROJECT" value="1" type="GuiResourceData"/>
+<property name="PAViews_PACKAGE" value="1" type="GuiResourceData"/>
+<property name="PAViews_SYSTEM" value="1" type="GuiResourceData"/>
+<property name="PartChooser_FAMILY_CHOOSER" value="2" type="GuiResourceData"/>
+<property name="PartChooser_PARTS" value="2" type="GuiResourceData"/>
+<property name="PartChooser_PART_PACKAGE_CHOOSER" value="2" type="GuiResourceData"/>
+<property name="PartChooser_PART_SPEED_CHOOSER" value="2" type="GuiResourceData"/>
+<property name="ProjectNameChooser_PROJECT_NAME" value="2" type="GuiResourceData"/>
+<property name="RDICommands_DELETE" value="1" type="GuiResourceData"/>
+<property name="SettingsDialog_PROJECT_TREE" value="1" type="GuiResourceData"/>
+<property name="SrcMenu_IP_HIERARCHY" value="11" type="GuiResourceData"/>
+<property name="SystemBuilderMenu_ADD_MODULE" value="1" type="GuiResourceData"/>
+<property name="SystemBuilderView_ADD_IP" value="6" type="GuiResourceData"/>
+<property name="TclConsoleView_TCL_CONSOLE_CODE_EDITOR" value="1" type="GuiResourceData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="14" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="12" type="TclMode"/>
+</item>
+</section>
+</application>
+</document>

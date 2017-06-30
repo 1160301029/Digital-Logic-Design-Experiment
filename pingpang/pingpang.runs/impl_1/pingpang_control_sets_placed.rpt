@@ -1,0 +1,92 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.1 (win64) Build 1846317 Fri Apr 14 18:55:03 MDT 2017
+| Date         : Tue Jun 27 02:25:05 2017
+| Host         : DESKTOP-E9M1FAE running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file pingpang_control_sets_placed.rpt
+| Design       : pingpang
+| Device       : xc7a35t
+-------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    27 |
+| Unused register locations in slices containing registers |   161 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               3 |            2 |
+| No           | No                    | Yes                    |              11 |           11 |
+| No           | Yes                   | No                     |              38 |           14 |
+| Yes          | No                    | No                     |              34 |           11 |
+| Yes          | No                    | Yes                    |               1 |            1 |
+| Yes          | Yes                   | No                     |              32 |            9 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++--------------------------------+-----------------------------+-------------------------------+------------------+----------------+
+|          Clock Signal          |        Enable Signal        |        Set/Reset Signal       | Slice Load Count | Bel Load Count |
++--------------------------------+-----------------------------+-------------------------------+------------------+----------------+
+|  ball_place_reg[0]_LDC_i_1_n_0 |                             | ball_place_reg[0]_LDC_i_2_n_0 |                1 |              1 |
+|  ball_place_reg[1]_LDC_i_1_n_0 |                             | ball_place_reg[1]_LDC_i_2_n_0 |                1 |              1 |
+|  ball_place_reg[2]_LDC_i_1_n_0 |                             | ball_place_reg[2]_LDC_i_2_n_0 |                1 |              1 |
+|  ball_place_reg[3]_LDC_i_1_n_0 |                             | ball_place_reg[3]_LDC_i_2_n_0 |                1 |              1 |
+|  ball_state_reg_LDC_i_1_n_0    |                             | ball_state_reg_LDC_i_2_n_0    |                1 |              1 |
+|  clk_IBUF_BUFG                 |                             | ball_place_reg[0]_LDC_i_1_n_0 |                1 |              1 |
+|  clk_IBUF_BUFG                 |                             | ball_place_reg[0]_LDC_i_2_n_0 |                1 |              1 |
+|  clk_IBUF_BUFG                 |                             | ball_place_reg[1]_LDC_i_1_n_0 |                1 |              1 |
+|  clk_IBUF_BUFG                 |                             | ball_place_reg[1]_LDC_i_2_n_0 |                1 |              1 |
+|  clk_IBUF_BUFG                 |                             | ball_place_reg[2]_LDC_i_1_n_0 |                1 |              1 |
+|  clk_IBUF_BUFG                 |                             | ball_place_reg[2]_LDC_i_2_n_0 |                1 |              1 |
+|  clk_IBUF_BUFG                 |                             | ball_place_reg[3]_LDC_i_1_n_0 |                1 |              1 |
+|  clk_IBUF_BUFG                 |                             | ball_place_reg[3]_LDC_i_2_n_0 |                1 |              1 |
+|  clk_IBUF_BUFG                 |                             | ball_state_reg_LDC_i_1_n_0    |                1 |              1 |
+|  clk_IBUF_BUFG                 |                             | ball_state_reg_LDC_i_2_n_0    |                1 |              1 |
+|  clk_IBUF_BUFG                 |                             | state_reg_LDC_i_2_n_0         |                1 |              1 |
+|  clk_IBUF_BUFG                 | state_P_i_1_n_0             | state_reg_LDC_i_1_n_0         |                1 |              1 |
+|  light_clk_IBUF_BUFG           |                             |                               |                1 |              1 |
+|  state_reg_LDC_i_1_n_0         |                             | state_reg_LDC_i_2_n_0         |                1 |              1 |
+|  clk_IBUF_BUFG                 |                             |                               |                1 |              2 |
+|  clk_IBUF_BUFG                 | B_score_binary              |                               |                1 |              4 |
+|  clk_IBUF_BUFG                 | A_score_binary              |                               |                1 |              4 |
+|  clk_IBUF_BUFG                 | ball[7]_i_1_n_0             |                               |                3 |              8 |
+|  light_clk_IBUF_BUFG           | A_score[8]_i_1_n_0          |                               |                3 |              9 |
+|  light_clk_IBUF_BUFG           | B_score[8]_i_1_n_0          |                               |                3 |              9 |
+|  clk_IBUF_BUFG                 | get_score_times[31]_i_2_n_0 | get_score_times[31]_i_1_n_0   |                9 |             32 |
+|  light_clk_IBUF_BUFG           |                             | times_reg[0]_i_1_n_1          |                8 |             32 |
++--------------------------------+-----------------------------+-------------------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 1      |                    19 |
+| 2      |                     1 |
+| 4      |                     2 |
+| 8      |                     1 |
+| 9      |                     2 |
+| 16+    |                     2 |
++--------+-----------------------+
+
+

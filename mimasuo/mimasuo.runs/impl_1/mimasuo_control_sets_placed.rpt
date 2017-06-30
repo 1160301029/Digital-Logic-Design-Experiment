@@ -1,0 +1,126 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.1 (win64) Build 1846317 Fri Apr 14 18:55:03 MDT 2017
+| Date         : Wed Jun 28 04:09:31 2017
+| Host         : DESKTOP-E9M1FAE running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file mimasuo_control_sets_placed.rpt
+| Design       : mimasuo
+| Device       : xc7a35t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    62 |
+| Unused register locations in slices containing registers |   418 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               5 |            3 |
+| No           | No                    | Yes                    |              39 |           39 |
+| No           | Yes                   | No                     |              20 |           20 |
+| Yes          | No                    | No                     |               7 |            3 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              31 |            8 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++------------------------+------------------+-----------------------+------------------+----------------+
+|      Clock Signal      |   Enable Signal  |    Set/Reset Signal   | Slice Load Count | Bel Load Count |
++------------------------+------------------+-----------------------+------------------+----------------+
+|  flag1_reg_LDC_i_1_n_0 |                  | flag1_reg_LDC_i_2_n_0 |                1 |              1 |
+|  flag1_reg_LDC_i_1_n_0 |                  | reset_IBUF            |                1 |              1 |
+|  B0_reg[2]_LDC_i_1_n_0 |                  | B0_reg[2]_LDC_i_2_n_0 |                1 |              1 |
+|  B0_reg[3]_LDC_i_1_n_0 |                  | B0_reg[3]_LDC_i_2_n_0 |                1 |              1 |
+|  B1_reg[0]_LDC_i_1_n_0 |                  | B1_reg[0]_LDC_i_2_n_0 |                1 |              1 |
+|  B1_reg[1]_LDC_i_1_n_0 |                  | B1_reg[1]_LDC_i_2_n_0 |                1 |              1 |
+|  B1_reg[2]_LDC_i_1_n_0 |                  | B1_reg[2]_LDC_i_2_n_0 |                1 |              1 |
+|  B1_reg[3]_LDC_i_1_n_0 |                  | B1_reg[3]_LDC_i_2_n_0 |                1 |              1 |
+|  B2_reg[0]_LDC_i_1_n_0 |                  | B2_reg[0]_LDC_i_2_n_0 |                1 |              1 |
+|  B2_reg[1]_LDC_i_1_n_0 |                  | B2_reg[1]_LDC_i_2_n_0 |                1 |              1 |
+|  B2_reg[2]_LDC_i_1_n_0 |                  | B2_reg[2]_LDC_i_2_n_0 |                1 |              1 |
+|  B2_reg[3]_LDC_i_1_n_0 |                  | B2_reg[3]_LDC_i_2_n_0 |                1 |              1 |
+|  B3_reg[0]_LDC_i_1_n_0 |                  | B3_reg[0]_LDC_i_2_n_0 |                1 |              1 |
+|  B3_reg[1]_LDC_i_1_n_0 |                  | B3_reg[1]_LDC_i_2_n_0 |                1 |              1 |
+|  B3_reg[2]_LDC_i_1_n_0 |                  | B3_reg[2]_LDC_i_2_n_0 |                1 |              1 |
+|  flag_reg_LDC_i_1_n_0  |                  | flag_reg_LDC_i_2_n_0  |                1 |              1 |
+|  B0_reg[0]_LDC_i_1_n_0 |                  | B0_reg[0]_LDC_i_2_n_0 |                1 |              1 |
+|  B0_reg[1]_LDC_i_1_n_0 |                  | B0_reg[1]_LDC_i_2_n_0 |                1 |              1 |
+|  B3_reg[3]_LDC_i_1_n_0 |                  | B3_reg[3]_LDC_i_2_n_0 |                1 |              1 |
+|  green_reg_LDC_i_1_n_0 |                  | reset_IBUF            |                1 |              1 |
+|  clk1_reg_n_0_BUFG     |                  | flag1_reg_LDC_i_1_n_0 |                1 |              1 |
+|  clk1_reg_n_0_BUFG     |                  | flag1_reg_LDC_i_2_n_0 |                1 |              1 |
+|  clk1_reg_n_0_BUFG     |                  | B0_reg[2]_LDC_i_1_n_0 |                1 |              1 |
+|  clk1_reg_n_0_BUFG     |                  | B0_reg[2]_LDC_i_2_n_0 |                1 |              1 |
+|  clk1_reg_n_0_BUFG     |                  | B0_reg[3]_LDC_i_1_n_0 |                1 |              1 |
+|  clk1_reg_n_0_BUFG     |                  | B0_reg[3]_LDC_i_2_n_0 |                1 |              1 |
+|  clk1_reg_n_0_BUFG     |                  | B1_reg[0]_LDC_i_1_n_0 |                1 |              1 |
+|  clk1_reg_n_0_BUFG     |                  | B1_reg[0]_LDC_i_2_n_0 |                1 |              1 |
+|  clk1_reg_n_0_BUFG     |                  | B1_reg[1]_LDC_i_1_n_0 |                1 |              1 |
+|  clk1_reg_n_0_BUFG     |                  | B1_reg[1]_LDC_i_2_n_0 |                1 |              1 |
+|  clk1_reg_n_0_BUFG     |                  | B1_reg[2]_LDC_i_1_n_0 |                1 |              1 |
+|  clk1_reg_n_0_BUFG     |                  | B1_reg[2]_LDC_i_2_n_0 |                1 |              1 |
+|  clk1_reg_n_0_BUFG     |                  | B1_reg[3]_LDC_i_1_n_0 |                1 |              1 |
+|  clk1_reg_n_0_BUFG     |                  | B1_reg[3]_LDC_i_2_n_0 |                1 |              1 |
+|  clk1_reg_n_0_BUFG     |                  | B2_reg[0]_LDC_i_1_n_0 |                1 |              1 |
+|  clk1_reg_n_0_BUFG     |                  | B2_reg[0]_LDC_i_2_n_0 |                1 |              1 |
+|  clk1_reg_n_0_BUFG     |                  | B2_reg[1]_LDC_i_1_n_0 |                1 |              1 |
+|  clk1_reg_n_0_BUFG     |                  | B2_reg[1]_LDC_i_2_n_0 |                1 |              1 |
+|  clk1_reg_n_0_BUFG     |                  | B2_reg[2]_LDC_i_1_n_0 |                1 |              1 |
+|  clk1_reg_n_0_BUFG     |                  | B2_reg[2]_LDC_i_2_n_0 |                1 |              1 |
+|  clk1_reg_n_0_BUFG     |                  | B2_reg[3]_LDC_i_1_n_0 |                1 |              1 |
+|  clk1_reg_n_0_BUFG     |                  | B2_reg[3]_LDC_i_2_n_0 |                1 |              1 |
+|  clk1_reg_n_0_BUFG     |                  | B3_reg[0]_LDC_i_1_n_0 |                1 |              1 |
+|  clk1_reg_n_0_BUFG     |                  | B3_reg[0]_LDC_i_2_n_0 |                1 |              1 |
+|  clk1_reg_n_0_BUFG     |                  | B3_reg[1]_LDC_i_1_n_0 |                1 |              1 |
+|  clk1_reg_n_0_BUFG     |                  | B3_reg[1]_LDC_i_2_n_0 |                1 |              1 |
+|  clk1_reg_n_0_BUFG     |                  | B3_reg[2]_LDC_i_1_n_0 |                1 |              1 |
+|  clk1_reg_n_0_BUFG     |                  | B3_reg[2]_LDC_i_2_n_0 |                1 |              1 |
+|  clk1_reg_n_0_BUFG     |                  | flag_reg_LDC_i_1_n_0  |                1 |              1 |
+|  clk1_reg_n_0_BUFG     |                  | flag_reg_LDC_i_2_n_0  |                1 |              1 |
+|  clk1_reg_n_0_BUFG     |                  | B0_reg[0]_LDC_i_1_n_0 |                1 |              1 |
+|  clk1_reg_n_0_BUFG     |                  | B0_reg[0]_LDC_i_2_n_0 |                1 |              1 |
+|  clk1_reg_n_0_BUFG     |                  | B0_reg[1]_LDC_i_2_n_0 |                1 |              1 |
+|  clk1_reg_n_0_BUFG     |                  | B0_reg[1]_LDC_i_1_n_0 |                1 |              1 |
+|  clk1_reg_n_0_BUFG     |                  | B3_reg[3]_LDC_i_1_n_0 |                1 |              1 |
+|  clk1_reg_n_0_BUFG     |                  | B3_reg[3]_LDC_i_2_n_0 |                1 |              1 |
+|  clk1_reg_n_0_BUFG     |                  | green_reg_LDC_i_1_n_0 |                1 |              1 |
+|  clk_IBUF_BUFG         |                  |                       |                2 |              2 |
+|  clk1_reg_n_0_BUFG     |                  | reset_IBUF            |                2 |              2 |
+|  clk1_reg_n_0_BUFG     |                  |                       |                1 |              3 |
+|  clk1_reg_n_0_BUFG     | light[6]_i_1_n_0 |                       |                3 |              7 |
+|  clk_IBUF_BUFG         | counter          | counter[31]_i_1_n_0   |                8 |             31 |
++------------------------+------------------+-----------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 1      |                    57 |
+| 2      |                     2 |
+| 3      |                     1 |
+| 7      |                     1 |
+| 16+    |                     1 |
++--------+-----------------------+
+
+

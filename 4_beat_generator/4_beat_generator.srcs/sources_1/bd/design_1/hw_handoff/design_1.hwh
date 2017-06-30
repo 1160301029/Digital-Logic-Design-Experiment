@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Wed Jun 07 18:58:27 2017" VIVADOVERSION="2014.4">
+
+  <SYSTEMINFO ARCH="artix7" DEVICE="7a35t" NAME="design_1_imp" PACKAGE="csg324" SPEEDGRADE="-3"/>
+
+  <EXTERNALPORTS>
+    <PORT DIR="O" NAME="Q0" SIGIS="undef" SIGNAME="D_trigger_0_Q">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="D_trigger_0" PORT="Q"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="Q1" SIGIS="undef" SIGNAME="D_trigger_1_Q">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="D_trigger_1" PORT="Q"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="Q2" SIGIS="undef" SIGNAME="D_trigger_2_Q">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="D_trigger_2" PORT="Q"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="Q3" SIGIS="undef" SIGNAME="D_trigger_3_Q">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="D_trigger_3" PORT="Q"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT CLKFREQUENCY="100000000" DIR="I" NAME="CLK" SIGIS="clk" SIGNAME="External_Ports_CLK">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="D_trigger_3" PORT="CLK"/>
+        <CONNECTION INSTANCE="D_trigger_2" PORT="CLK"/>
+        <CONNECTION INSTANCE="D_trigger_1" PORT="CLK"/>
+        <CONNECTION INSTANCE="D_trigger_0" PORT="CLK"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="CLRN" SIGIS="undef" SIGNAME="External_Ports_CLRN">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="D_trigger_3" PORT="CLRN"/>
+        <CONNECTION INSTANCE="D_trigger_2" PORT="CLRN"/>
+        <CONNECTION INSTANCE="D_trigger_1" PORT="CLRN"/>
+        <CONNECTION INSTANCE="D_trigger_0" PORT="CLRN"/>
+      </CONNECTIONS>
+    </PORT>
+  </EXTERNALPORTS>
+
+  <MODULES>
+    <MODULE FULLNAME="/D_trigger_0" HWVERSION="1.0" INSTANCE="D_trigger_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="D_trigger" VLNV="xilinx.com:user:D_trigger:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_D_trigger_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="D" SIGIS="undef" SIGNAME="D_trigger_1_Q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="D_trigger_1" PORT="Q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="CLK" SIGIS="clk" SIGNAME="External_Ports_CLK">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="CLK"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="CLRN" SIGIS="undef" SIGNAME="External_Ports_CLRN">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="CLRN"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Q" SIGIS="undef" SIGNAME="D_trigger_0_Q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="Q0"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/D_trigger_1" HWVERSION="1.0" INSTANCE="D_trigger_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="D_trigger" VLNV="xilinx.com:user:D_trigger:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_D_trigger_1_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="D" SIGIS="undef" SIGNAME="D_trigger_2_Q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="D_trigger_2" PORT="Q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="CLK" SIGIS="clk" SIGNAME="External_Ports_CLK">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="CLK"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="CLRN" SIGIS="undef" SIGNAME="External_Ports_CLRN">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="CLRN"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Q" SIGIS="undef" SIGNAME="D_trigger_1_Q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="Q1"/>
+            <CONNECTION INSTANCE="D_trigger_0" PORT="D"/>
+            <CONNECTION INSTANCE="util_vector_logic_2" PORT="Op2"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/D_trigger_2" HWVERSION="1.0" INSTANCE="D_trigger_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="D_trigger" VLNV="xilinx.com:user:D_trigger:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_D_trigger_2_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="D" SIGIS="undef" SIGNAME="D_trigger_3_Q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="D_trigger_3" PORT="Q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="CLK" SIGIS="clk" SIGNAME="External_Ports_CLK">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="CLK"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="CLRN" SIGIS="undef" SIGNAME="External_Ports_CLRN">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="CLRN"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Q" SIGIS="undef" SIGNAME="D_trigger_2_Q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="Q2"/>
+            <CONNECTION INSTANCE="D_trigger_1" PORT="D"/>
+            <CONNECTION INSTANCE="util_vector_logic_2" PORT="Op1"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/D_trigger_3" HWVERSION="1.0" INSTANCE="D_trigger_3" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="D_trigger" VLNV="xilinx.com:user:D_trigger:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_D_trigger_3_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="D" SIGIS="undef" SIGNAME="util_vector_logic_1_Res">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="util_vector_logic_1" PORT="Res"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="CLK" SIGIS="clk" SIGNAME="External_Ports_CLK">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="CLK"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="CLRN" SIGIS="undef" SIGNAME="External_Ports_CLRN">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="CLRN"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Q" SIGIS="undef" SIGNAME="D_trigger_3_Q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="Q3"/>
+            <CONNECTION INSTANCE="D_trigger_2" PORT="D"/>
+            <CONNECTION INSTANCE="util_vector_logic_0" PORT="Op1"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/util_vector_logic_0" HWVERSION="2.0" INSTANCE="util_vector_logic_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="util_vector_logic" VLNV="xilinx.com:ip:util_vector_logic:2.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="C_OPERATION" VALUE="or"/>
+        <PARAMETER NAME="C_SIZE" VALUE="1"/>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_util_vector_logic_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="0" NAME="Op1" RIGHT="0" SIGIS="undef" SIGNAME="D_trigger_3_Q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="D_trigger_3" PORT="Q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="Op2" RIGHT="0" SIGIS="undef" SIGNAME="util_vector_logic_2_Res">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="util_vector_logic_2" PORT="Res"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="0" NAME="Res" RIGHT="0" SIGIS="undef" SIGNAME="util_vector_logic_0_Res">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="util_vector_logic_1" PORT="Op1"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/util_vector_logic_1" HWVERSION="2.0" INSTANCE="util_vector_logic_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="util_vector_logic" VLNV="xilinx.com:ip:util_vector_logic:2.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="C_OPERATION" VALUE="not"/>
+        <PARAMETER NAME="C_SIZE" VALUE="1"/>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_util_vector_logic_1_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="0" NAME="Op1" RIGHT="0" SIGIS="undef" SIGNAME="util_vector_logic_0_Res">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="util_vector_logic_0" PORT="Res"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="0" NAME="Res" RIGHT="0" SIGIS="undef" SIGNAME="util_vector_logic_1_Res">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="D_trigger_3" PORT="D"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/util_vector_logic_2" HWVERSION="2.0" INSTANCE="util_vector_logic_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="util_vector_logic" VLNV="xilinx.com:ip:util_vector_logic:2.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="C_OPERATION" VALUE="or"/>
+        <PARAMETER NAME="C_SIZE" VALUE="1"/>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_util_vector_logic_2_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="0" NAME="Op1" RIGHT="0" SIGIS="undef" SIGNAME="D_trigger_2_Q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="D_trigger_2" PORT="Q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="Op2" RIGHT="0" SIGIS="undef" SIGNAME="D_trigger_1_Q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="D_trigger_1" PORT="Q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="0" NAME="Res" RIGHT="0" SIGIS="undef" SIGNAME="util_vector_logic_2_Res">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="util_vector_logic_0" PORT="Op2"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+  </MODULES>
+
+  <REPOSITORIES/>
+
+</EDKSYSTEM>

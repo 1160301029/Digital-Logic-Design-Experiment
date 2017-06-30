@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Thu Jun  1 10:57:48 2017
+# Process ID: 6560
+# Current directory: D:/vivado/All_adder/All_adder.runs/impl_1
+# Command line: vivado.exe -log all_adder.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source all_adder.tcl -notrace
+# Log file: D:/vivado/All_adder/All_adder.runs/impl_1/all_adder.vdi
+# Journal file: D:/vivado/All_adder/All_adder.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source all_adder.tcl -notrace

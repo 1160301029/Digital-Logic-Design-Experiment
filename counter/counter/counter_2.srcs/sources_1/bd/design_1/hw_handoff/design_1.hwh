@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Thu Jun  8 10:31:18 2017" VIVADOVERSION="2017.1">
+
+  <SYSTEMINFO ARCH="artix7" DEVICE="7a35t" NAME="design_1" PACKAGE="csg324" SPEEDGRADE="-1"/>
+
+  <EXTERNALPORTS>
+    <PORT DIR="I" NAME="N" SIGIS="undef" SIGNAME="External_Ports_N">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="JK_f_f_3" PORT="J"/>
+        <CONNECTION INSTANCE="JK_f_f_3" PORT="K"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="CLK" SIGIS="undef" SIGNAME="External_Ports_CLK">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="JK_f_f_0" PORT="clk"/>
+        <CONNECTION INSTANCE="JK_f_f_1" PORT="clk"/>
+        <CONNECTION INSTANCE="JK_f_f_2" PORT="clk"/>
+        <CONNECTION INSTANCE="JK_f_f_3" PORT="clk"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="clr" SIGIS="undef" SIGNAME="External_Ports_clr">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="JK_f_f_0" PORT="clr"/>
+        <CONNECTION INSTANCE="JK_f_f_1" PORT="clr"/>
+        <CONNECTION INSTANCE="JK_f_f_2" PORT="clr"/>
+        <CONNECTION INSTANCE="JK_f_f_3" PORT="clr"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="A0" SIGIS="undef" SIGNAME="JK_f_f_0_Q">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="JK_f_f_0" PORT="Q"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="A1" SIGIS="undef" SIGNAME="JK_f_f_1_Q">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="JK_f_f_1" PORT="Q"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="A2" SIGIS="undef" SIGNAME="JK_f_f_2_Q">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="JK_f_f_2" PORT="Q"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="A3" SIGIS="undef" SIGNAME="JK_f_f_3_Q">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="JK_f_f_3" PORT="Q"/>
+      </CONNECTIONS>
+    </PORT>
+  </EXTERNALPORTS>
+
+  <EXTERNALINTERFACES/>
+
+  <MODULES>
+    <MODULE FULLNAME="/AND_0" HWVERSION="1.0" INSTANCE="AND_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="AND" VLNV="xilinx.com:user:AND:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_AND_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="A" SIGIS="undef" SIGNAME="JK_f_f_3_Q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="JK_f_f_3" PORT="Q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="B" SIGIS="undef" SIGNAME="JK_f_f_2_Q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="JK_f_f_2" PORT="Q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="F" SIGIS="undef" SIGNAME="AND_0_F">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="JK_f_f_0" PORT="K"/>
+            <CONNECTION INSTANCE="JK_f_f_1" PORT="K"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/AND_1" HWVERSION="1.0" INSTANCE="AND_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="AND" VLNV="xilinx.com:user:AND:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_AND_1_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="A" SIGIS="undef" SIGNAME="JK_f_f_3_Q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="JK_f_f_3" PORT="Q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="B" SIGIS="undef" SIGNAME="JK_f_f_2_Q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="JK_f_f_2" PORT="Q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="F" SIGIS="undef" SIGNAME="AND_1_F">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="AND_2" PORT="A"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/AND_2" HWVERSION="1.0" INSTANCE="AND_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="AND" VLNV="xilinx.com:user:AND:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_AND_2_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="A" SIGIS="undef" SIGNAME="AND_1_F">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="AND_1" PORT="F"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="B" SIGIS="undef" SIGNAME="JK_f_f_1_Q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="JK_f_f_1" PORT="Q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="F" SIGIS="undef" SIGNAME="AND_2_F">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="JK_f_f_0" PORT="J"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/AND_3" HWVERSION="1.0" INSTANCE="AND_3" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="AND" VLNV="xilinx.com:user:AND:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_AND_3_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="A" SIGIS="undef" SIGNAME="AND_4_F">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="AND_4" PORT="F"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="B" SIGIS="undef" SIGNAME="JK_f_f_0_Qb">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="JK_f_f_0" PORT="Qb"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="F" SIGIS="undef" SIGNAME="AND_3_F">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="JK_f_f_1" PORT="J"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/AND_4" HWVERSION="1.0" INSTANCE="AND_4" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="AND" VLNV="xilinx.com:user:AND:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_AND_4_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="A" SIGIS="undef" SIGNAME="JK_f_f_3_Q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="JK_f_f_3" PORT="Q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="B" SIGIS="undef" SIGNAME="JK_f_f_2_Q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="JK_f_f_2" PORT="Q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="F" SIGIS="undef" SIGNAME="AND_4_F">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="AND_3" PORT="A"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/JK_f_f_0" HWVERSION="1.0" INSTANCE="JK_f_f_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="JK_f_f" VLNV="xilinx.com:user:JK_f_f:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_JK_f_f_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_CLK">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="CLK"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="clr" SIGIS="undef" SIGNAME="External_Ports_clr">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clr"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="J" SIGIS="undef" SIGNAME="AND_2_F">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="AND_2" PORT="F"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="K" SIGIS="undef" SIGNAME="AND_0_F">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="AND_0" PORT="F"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Q" SIGIS="undef" SIGNAME="JK_f_f_0_Q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="A0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Qb" SIGIS="undef" SIGNAME="JK_f_f_0_Qb">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="AND_3" PORT="B"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/JK_f_f_1" HWVERSION="1.0" INSTANCE="JK_f_f_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="JK_f_f" VLNV="xilinx.com:user:JK_f_f:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_JK_f_f_1_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_CLK">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="CLK"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="clr" SIGIS="undef" SIGNAME="External_Ports_clr">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clr"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="J" SIGIS="undef" SIGNAME="AND_3_F">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="AND_3" PORT="F"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="K" SIGIS="undef" SIGNAME="AND_0_F">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="AND_0" PORT="F"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Q" SIGIS="undef" SIGNAME="JK_f_f_1_Q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="AND_2" PORT="B"/>
+            <CONNECTION INSTANCE="External_Ports" PORT="A1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Qb" SIGIS="undef"/>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/JK_f_f_2" HWVERSION="1.0" INSTANCE="JK_f_f_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="JK_f_f" VLNV="xilinx.com:user:JK_f_f:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_JK_f_f_2_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_CLK">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="CLK"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="clr" SIGIS="undef" SIGNAME="External_Ports_clr">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clr"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="J" SIGIS="undef" SIGNAME="JK_f_f_3_Q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="JK_f_f_3" PORT="Q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="K" SIGIS="undef" SIGNAME="JK_f_f_3_Q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="JK_f_f_3" PORT="Q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Q" SIGIS="undef" SIGNAME="JK_f_f_2_Q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="AND_0" PORT="B"/>
+            <CONNECTION INSTANCE="AND_1" PORT="B"/>
+            <CONNECTION INSTANCE="AND_4" PORT="B"/>
+            <CONNECTION INSTANCE="External_Ports" PORT="A2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Qb" SIGIS="undef"/>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/JK_f_f_3" HWVERSION="1.0" INSTANCE="JK_f_f_3" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="JK_f_f" VLNV="xilinx.com:user:JK_f_f:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_JK_f_f_3_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_CLK">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="CLK"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="clr" SIGIS="undef" SIGNAME="External_Ports_clr">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clr"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="J" SIGIS="undef" SIGNAME="External_Ports_N">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="N"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="K" SIGIS="undef" SIGNAME="External_Ports_N">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="N"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Q" SIGIS="undef" SIGNAME="JK_f_f_3_Q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="AND_0" PORT="A"/>
+            <CONNECTION INSTANCE="AND_1" PORT="A"/>
+            <CONNECTION INSTANCE="AND_4" PORT="A"/>
+            <CONNECTION INSTANCE="JK_f_f_2" PORT="K"/>
+            <CONNECTION INSTANCE="JK_f_f_2" PORT="J"/>
+            <CONNECTION INSTANCE="External_Ports" PORT="A3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Qb" SIGIS="undef"/>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+  </MODULES>
+
+</EDKSYSTEM>

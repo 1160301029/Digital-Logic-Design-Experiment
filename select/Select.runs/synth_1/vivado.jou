@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Wed May 31 16:41:09 2017
+# Process ID: 12364
+# Current directory: D:/vivado/Select/Select.runs/synth_1
+# Command line: vivado.exe -log select_1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source select_1.tcl
+# Log file: D:/vivado/Select/Select.runs/synth_1/select_1.vds
+# Journal file: D:/vivado/Select/Select.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source select_1.tcl -notrace

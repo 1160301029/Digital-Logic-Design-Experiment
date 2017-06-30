@@ -1,0 +1,111 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.1 (win64) Build 1846317 Fri Apr 14 18:55:03 MDT 2017
+| Date         : Wed Jun 28 00:57:24 2017
+| Host         : DESKTOP-E9M1FAE running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file elevator_controller_control_sets_placed.rpt
+| Design       : elevator_controller
+| Device       : xc7a35t
+------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    46 |
+| Unused register locations in slices containing registers |   284 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               2 |            1 |
+| No           | No                    | Yes                    |              11 |           11 |
+| No           | Yes                   | No                     |              42 |           19 |
+| Yes          | No                    | No                     |              57 |           20 |
+| Yes          | No                    | Yes                    |              12 |           12 |
+| Yes          | Yes                   | No                     |              16 |            4 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++------------------------------------+-------------------------+-----------------------------------+------------------+----------------+
+|            Clock Signal            |      Enable Signal      |          Set/Reset Signal         | Slice Load Count | Bel Load Count |
++------------------------------------+-------------------------+-----------------------------------+------------------+----------------+
+|  clk1_reg_n_0_BUFG                 |                         | floor_reg_up_reg[3]_LDC_i_2_n_0   |                1 |              1 |
+|  clk1_reg_n_0_BUFG                 |                         | floor_reg_down_reg[0]_LDC_i_2_n_0 |                1 |              1 |
+|  clk1_reg_n_0_BUFG                 |                         | floor_reg_up_reg[0]_LDC_i_2_n_0   |                1 |              1 |
+|  clk1_reg_n_0_BUFG                 |                         | floor_reg_down_reg[1]_LDC_i_2_n_0 |                1 |              1 |
+|  clk1_reg_n_0_BUFG                 |                         | floor_reg_down_reg[2]_LDC_i_2_n_0 |                1 |              1 |
+|  clk1_reg_n_0_BUFG                 |                         | floor_reg_up_reg[1]_LDC_i_2_n_0   |                1 |              1 |
+|  clk1_reg_n_0_BUFG                 |                         | floor_reg_down_reg[3]_LDC_i_2_n_0 |                1 |              1 |
+|  clk1_reg_n_0_BUFG                 |                         | floor_reg_up_reg[2]_LDC_i_2_n_0   |                1 |              1 |
+|  clk1_reg_n_0_BUFG                 |                         | on_or_off_reg_LDC_i_1_n_0         |                1 |              1 |
+|  clk1_reg_n_0_BUFG                 |                         | on_or_off_reg_LDC_i_2_n_0         |                1 |              1 |
+|  clk1_reg_n_0_BUFG                 |                         | up_or_down_reg[0]_LDC_i_2_n_0     |                1 |              1 |
+|  up_or_down_reg[0]_LDC_i_1_n_0     |                         | up_or_down_reg[0]_LDC_i_2_n_0     |                1 |              1 |
+|  up_or_down_reg[1]_LDC_i_1_n_0     |                         | up_or_down_reg[1]_LDC_i_2_n_0     |                1 |              1 |
+|  clk1_reg_n_0_BUFG                 | floor_reg_up            | floor_reg_up[4]_i_2_n_0           |                1 |              1 |
+|  clk1_reg_n_0_BUFG                 | floor_reg_up            | floor_reg_up_reg[0]_LDC_i_1_n_0   |                1 |              1 |
+|  clk1_reg_n_0_BUFG                 | floor_reg_up            | floor_reg_up_reg[1]_LDC_i_1_n_0   |                1 |              1 |
+|  clk1_reg_n_0_BUFG                 | floor_reg_up            | floor_reg_up_reg[2]_LDC_i_1_n_0   |                1 |              1 |
+|  clk1_reg_n_0_BUFG                 | floor_reg_up            | floor_reg_up_reg[3]_LDC_i_1_n_0   |                1 |              1 |
+|  clk1_reg_n_0_BUFG                 | floor_reg_down          | floor_reg_down_reg[3]_LDC_i_1_n_0 |                1 |              1 |
+|  clk1_reg_n_0_BUFG                 | floor_reg_down          | floor_reg_down_reg[1]_LDC_i_1_n_0 |                1 |              1 |
+|  clk1_reg_n_0_BUFG                 | floor_reg_down          | floor_reg_down[4]_i_2_n_0         |                1 |              1 |
+|  clk1_reg_n_0_BUFG                 | floor_reg_down          | floor_reg_down_reg[0]_LDC_i_1_n_0 |                1 |              1 |
+|  clk1_reg_n_0_BUFG                 | floor_reg_down          | floor_reg_down_reg[2]_LDC_i_1_n_0 |                1 |              1 |
+|  floor_reg_down_reg[0]_LDC_i_1_n_0 |                         | floor_reg_down_reg[0]_LDC_i_2_n_0 |                1 |              1 |
+|  clk1_reg_n_0_BUFG                 | up_or_down[1]_P_i_1_n_0 | up_or_down_reg[0]_LDC_i_1_n_0     |                1 |              1 |
+|  clk1_reg_n_0_BUFG                 | up_or_down[1]_P_i_1_n_0 | up_or_down_reg[1]_LDC_i_1_n_0     |                1 |              1 |
+| ~clk1_reg_n_0_BUFG                 | aim_floor[2]_i_1_n_0    |                                   |                1 |              1 |
+| ~clk1_reg_n_0_BUFG                 | require_time[2]_i_1_n_0 |                                   |                1 |              1 |
+|  floor_reg_up_reg[0]_LDC_i_1_n_0   |                         | floor_reg_up_reg[0]_LDC_i_2_n_0   |                1 |              1 |
+|  floor_reg_down_reg[1]_LDC_i_1_n_0 |                         | floor_reg_down_reg[1]_LDC_i_2_n_0 |                1 |              1 |
+|  floor_reg_up_reg[1]_LDC_i_1_n_0   |                         | floor_reg_up_reg[1]_LDC_i_2_n_0   |                1 |              1 |
+|  floor_reg_up_reg[2]_LDC_i_1_n_0   |                         | floor_reg_up_reg[2]_LDC_i_2_n_0   |                1 |              1 |
+|  floor_reg_up_reg[3]_LDC_i_1_n_0   |                         | floor_reg_up_reg[3]_LDC_i_2_n_0   |                1 |              1 |
+|  floor_reg_down_reg[2]_LDC_i_1_n_0 |                         | floor_reg_down_reg[2]_LDC_i_2_n_0 |                1 |              1 |
+|  floor_reg_down_reg[3]_LDC_i_1_n_0 |                         | floor_reg_down_reg[3]_LDC_i_2_n_0 |                1 |              1 |
+|  on_or_off_reg_LDC_i_1_n_0         |                         | on_or_off_reg_LDC_i_2_n_0         |                1 |              1 |
+|  clk_IBUF_BUFG                     |                         |                                   |                1 |              2 |
+|  clk1_reg_n_0_BUFG                 | now_floor_1             |                                   |                3 |              4 |
+| ~clk1_reg_n_0_BUFG                 | now_floor[9]_i_1_n_0    | now_floor[7]_i_1_n_0              |                1 |              4 |
+| ~clk1_reg_n_0_BUFG                 | aim_floor_1[3]_i_1_n_0  |                                   |                2 |              4 |
+| ~clk1_reg_n_0_BUFG                 | now_floor[9]_i_1_n_0    |                                   |                2 |              6 |
+| ~clk1_reg_n_0_BUFG                 | require_time[2]_i_1_n_0 | require_time[6]_i_1_n_0           |                1 |              6 |
+| ~clk1_reg_n_0_BUFG                 | aim_floor[2]_i_1_n_0    | aim_floor[6]_i_1_n_0              |                2 |              6 |
+|  clk1_reg_n_0_BUFG                 | front_floor[3]_i_1_n_0  |                                   |                2 |              8 |
+|  clk_IBUF_BUFG                     |                         | clk1                              |                8 |             31 |
+|  clk1_reg_n_0_BUFG                 | flag16_out              |                                   |                9 |             33 |
++------------------------------------+-------------------------+-----------------------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 1      |                    36 |
+| 2      |                     1 |
+| 4      |                     3 |
+| 6      |                     3 |
+| 8      |                     1 |
+| 16+    |                     2 |
++--------+-----------------------+
+
+

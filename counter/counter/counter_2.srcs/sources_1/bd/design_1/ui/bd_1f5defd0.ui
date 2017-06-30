@@ -1,0 +1,36 @@
+{
+   guistr: "# # String gsaved with Nlview 6.6.8  2016-12-21 bk=1.3817 VDI=40 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port N -pg 1 -y 630 -defaultsOSRD
+preplace port clr -pg 1 -y 530 -defaultsOSRD
+preplace port CLK -pg 1 -y 510 -defaultsOSRD
+preplace port A0 -pg 1 -y 70 -defaultsOSRD
+preplace port A1 -pg 1 -y 170 -defaultsOSRD
+preplace port A2 -pg 1 -y 520 -defaultsOSRD
+preplace port A3 -pg 1 -y 680 -defaultsOSRD
+preplace inst AND_0 -pg 1 -lvl 2 -y 450 -defaultsOSRD
+preplace inst AND_1 -pg 1 -lvl 1 -y 220 -defaultsOSRD
+preplace inst AND_2 -pg 1 -lvl 2 -y 230 -defaultsOSRD
+preplace inst AND_3 -pg 1 -lvl 2 -y 340 -defaultsOSRD
+preplace inst AND_4 -pg 1 -lvl 1 -y 330 -defaultsOSRD
+preplace inst JK_f_f_0 -pg 1 -lvl 3 -y 80 -defaultsOSRD
+preplace inst JK_f_f_1 -pg 1 -lvl 3 -y 330 -defaultsOSRD
+preplace inst JK_f_f_2 -pg 1 -lvl 3 -y 600 -defaultsOSRD
+preplace inst JK_f_f_3 -pg 1 -lvl 2 -y 620 -defaultsOSRD
+preplace netloc clr_1 1 0 3 NJ 530 190 530 360
+preplace netloc AND_3_F 1 2 1 N
+preplace netloc JK_f_f_1_Q 1 1 3 180 170 NJ 170 510
+preplace netloc CLK_1 1 0 3 NJ 510 200 510 350
+preplace netloc AND_2_F 1 2 1 340
+preplace netloc AND_4_F 1 1 1 N
+preplace netloc AND_1_F 1 1 1 N
+preplace netloc AND_0_F 1 2 1 370
+preplace netloc JK_f_f_3_Q 1 0 4 20 390 180 540 340 680 NJ
+preplace netloc N_1 1 0 2 NJ 630 180
+preplace netloc JK_f_f_0_Qb 1 1 3 170 160 NJ 160 510
+preplace netloc JK_f_f_2_Q 1 0 4 30 400 170 520 NJ 520 510
+preplace netloc JK_f_f_0_Q 1 3 1 NJ
+levelinfo -pg 1 0 100 270 440 530 -top 0 -bot 700
+",
+}
+0

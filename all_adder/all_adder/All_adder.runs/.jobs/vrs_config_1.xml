@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="all_adder_half_adder_0_0_synth_1" LaunchDir="D:/vivado/All_adder/All_adder.runs/all_adder_half_adder_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="all_adder_half_adder_1_0_synth_1" LaunchDir="D:/vivado/All_adder/All_adder.runs/all_adder_half_adder_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="all_adder_XOR1_0_0_synth_1" LaunchDir="D:/vivado/All_adder/All_adder.runs/all_adder_XOR1_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="D:/vivado/All_adder/All_adder.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="all_adder_half_adder_0_0_synth_1"/>
+		<Parent Id="all_adder_half_adder_1_0_synth_1"/>
+		<Parent Id="all_adder_XOR1_0_0_synth_1"/>
+	</Run>
+</Runs>
+

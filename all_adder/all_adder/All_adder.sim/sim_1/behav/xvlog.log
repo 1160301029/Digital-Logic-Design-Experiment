@@ -1,0 +1,16 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado/All_adder/All_adder.ip_user_files/bd/all_adder/hdl/all_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module all_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado/All_adder/All_adder.ip_user_files/bd/all_adder/ipshared/9f30/src/half_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module half_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado/All_adder/All_adder.ip_user_files/bd/all_adder/ip/all_adder_half_adder_0_0/sim/all_adder_half_adder_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module all_adder_half_adder_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado/All_adder/All_adder.ip_user_files/bd/all_adder/ip/all_adder_half_adder_1_0/sim/all_adder_half_adder_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module all_adder_half_adder_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado/All_adder/All_adder.ip_user_files/bd/all_adder/ipshared/8139/src/OR1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado/All_adder/All_adder.ip_user_files/bd/all_adder/ip/all_adder_OR1_0_1/sim/all_adder_OR1_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module all_adder_OR1_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado/All_adder/All_adder.srcs/sim_1/new/all_adder_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module all_adder_sim
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado/All_adder/All_adder.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

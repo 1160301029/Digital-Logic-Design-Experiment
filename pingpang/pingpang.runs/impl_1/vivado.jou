@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Tue Jun 27 02:24:37 2017
+# Process ID: 5524
+# Current directory: D:/vivado/pingpang/pingpang.runs/impl_1
+# Command line: vivado.exe -log pingpang.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source pingpang.tcl -notrace
+# Log file: D:/vivado/pingpang/pingpang.runs/impl_1/pingpang.vdi
+# Journal file: D:/vivado/pingpang/pingpang.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source pingpang.tcl -notrace

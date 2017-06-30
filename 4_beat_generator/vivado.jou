@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Wed Jun  7 21:00:34 2017
+# Process ID: 13412
+# Current directory: D:/vivado/4_beat_generator
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13880 D:\vivado\4_beat_generator\4_beat_generator.xpr
+# Log file: D:/vivado/4_beat_generator/vivado.log
+# Journal file: D:/vivado/4_beat_generator\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/vivado/4_beat_generator/4_beat_generator.xpr
+report_ip_status -name ip_status 
+update_compile_order -fileset sources_1
+launch_simulation
+source test.tcl
+close_sim

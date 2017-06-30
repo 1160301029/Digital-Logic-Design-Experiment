@@ -1,0 +1,8 @@
+{
+   guistr: "# # String gsaved with Nlview 6.6.8  2016-12-21 bk=1.3817 VDI=40 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace inst lte_3gpp_mimo_decoder_0 -pg 1 -lvl 1 -y 120 -defaultsOSRD
+levelinfo -pg 1 -340 -120 440 -top -220 -bot 620
+",
+}
+

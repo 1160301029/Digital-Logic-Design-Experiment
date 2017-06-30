@@ -1,0 +1,32 @@
+#-----------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Fri Jun 30 22:45:36 2017
+# Process ID: 4728
+# Current directory: D:/github/Digital-Logic-Design-Experiment/all_adder
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4228 D:\github\Digital-Logic-Design-Experiment\all_adder\All_adder.xpr
+# Log file: D:/github/Digital-Logic-Design-Experiment/all_adder/vivado.log
+# Journal file: D:/github/Digital-Logic-Design-Experiment/all_adder\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/github/Digital-Logic-Design-Experiment/all_adder/All_adder.xpr
+INFO: [Project 1-313] Project file moved from 'D:/vivado/All_adder' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [filemgmt 56-1] IP Repository Path: Directory not found as 'D:/github/Digital-Logic-Design-Experiment/half_adder3'; using path 'D:/vivado/half_adder3' instead.
+INFO: [filemgmt 56-1] IP Repository Path: Directory not found as 'D:/github/Digital-Logic-Design-Experiment/OR2'; using path 'D:/vivado/OR2' instead.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/vivado/half_adder3'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/vivado/OR2'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2017.1/data/ip'.
+open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:06 . Memory (MB): peak = 806.590 ; gain = 93.699
+open_bd_design {D:/github/Digital-Logic-Design-Experiment/all_adder/All_adder.srcs/sources_1/bd/all_adder/all_adder.bd}
+Adding cell -- xilinx.com:user:half_adder:1.0 - half_adder_0
+Adding cell -- xilinx.com:user:half_adder:1.0 - half_adder_1
+Adding cell -- xilinx.com:user:OR1:1.0 - OR1_0
+Successfully read diagram <all_adder> from BD file <D:/github/Digital-Logic-Design-Experiment/all_adder/All_adder.srcs/sources_1/bd/all_adder/all_adder.bd>
+open_bd_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 873.395 ; gain = 50.566
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Jun 30 22:49:30 2017...

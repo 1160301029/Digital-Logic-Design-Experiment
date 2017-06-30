@@ -1,0 +1,7 @@
+Running: xsim.dir/select_yueshu_behav/xsimk.exe -simmode gui -wdb select_yueshu_behav.wdb -simrunnum 0 -socket 57270
+Design successfully loaded
+Design Loading Memory Usage: 5828 KB (Peak: 5828 KB)
+Design Loading CPU Usage: 31 ms
+Simulation completed
+Simulation Memory Usage: 6368 KB (Peak: 6368 KB)
+Simulation CPU Usage: 31 ms

@@ -1,0 +1,65 @@
+Unable to capture context for thread 7608 in process 4208, can not generate back trace
+Exception at PC 0x00007FFF94443C58
+Unable to capture context for thread 7608 in process 4208, can not generate back trace
+Unable to capture context for thread 11516 in process 4208, can not generate back trace
+Exception at PC 0x00007FFF6C56BB93
+Printing stacktrace...
+
+Exception at PC 0x00007FFF94443C58
+Unable to capture context for thread 9396 in process 4208, can not generate back trace
+Exception at PC 0x00007FFF94443C58
+Exception at PC 0x00007FFF94443C58
+Exception at PC 0x00007FFF94443C58
+Exception at PC 0x00007FFF94443C58
+Exception at PC 0x00007FFF94443C58
+Exception at PC 0x00007FFF94443C58
+Exception at PC 0x00007FFF94443C58
+Exception at PC 0x00007FFF94443C58
+Exception at PC 0x00007FFF94443C58
+Exception at PC 0x00007FFF94443C58
+Exception at PC 0x00007FFF94443C58
+Exception at PC 0x00007FFF94443C58
+Exception at PC 0x00007FFF94443C58
+Exception at PC 0x00007FFF94443C58
+Exception at PC 0x00007FFF94443C58
+Exception at PC 0x00007FFF94443C58
+[0]  [0x00007FFF6C56BB93]
+[1]  [0x00007FFF6C56BB93]
+[2]  [0x00007FFF6C56B4A1]
+[3]  [0x00007FFF6C56B3EF]
+[4]  [0x00007FFF6C5519FE]
+[5]  [0x00007FFF6C550ED1]
+[6]  [0x00007FFF6C550D76]
+[7]  [0x00007FFF6C4F79F6]
+[8]  [0x00007FFF6C4E7AFB]
+[9]  [0x00007FFF6C60E90A]
+[10]  [0x00007FFF6C629F87]
+[11]  [0x00007FFF6C62A05F]
+[12] (BaseThreadInitThunk+0x14) [0x00007FFF951C8364]
+[13] (RtlUserThreadStart+0x21) [0x00007FFF97C970D1]
+Done
+Exception at PC 0x00007FFF6C271A52
+Attemped to write at address 0x00007FFF6BE49BA4
+Printing stacktrace...
+
+[0]  [0x00007FFF6C271A52]
+[1]  [0x00007FFF6C271A52]
+[2]  [0x00007FFF6C271AD4]
+[3]  [0x00007FFF6C3B3FF7]
+[4]  [0x00007FFF6C299128]
+[5]  [0x00007FFF6C54DFB9]
+[6]  [0x00007FFF6C71EF23]
+[7]  [0x00007FFF6C62B06B]
+[8]  [0x00007FFF6C6208AF]
+[9]  [0x00007FFF6C620A32]
+[10] (RtlDeactivateActivationContextUnsafeFast+0x1bf) [0x00007FFF97C5A35F]
+[11] (LdrShutdownProcess+0x14b) [0x00007FFF97C3806B]
+[12] (RtlExitUserProcess+0xb4) [0x00007FFF97C37D94]
+[13] (ExitProcess+0xa) [0x00007FFF951DCE6A]
+[14] (exit+0x85) [0x00007FFF963FA4A5]
+[15] (initterm_e+0x231) [0x00007FFF963FAB01]
+[16]  [0x00000000004014CD]
+[17]  [0x000000000040151B]
+[18] (BaseThreadInitThunk+0x14) [0x00007FFF951C8364]
+[19] (RtlUserThreadStart+0x21) [0x00007FFF97C970D1]
+Done

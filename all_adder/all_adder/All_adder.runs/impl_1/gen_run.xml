@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcsg324-1" LaunchTime="1496285862">
+  <File Type="PWROPT-DRC" Name="all_adder_drc_pwropted.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="all_adder_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="all_adder_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="all_adder_power_routed.rpx"/>
+  <File Type="PA-TCL" Name="all_adder.tcl"/>
+  <File Type="OPT-HWDEF" Name="all_adder.hwdef"/>
+  <File Type="RDI-RDI" Name="all_adder.vdi"/>
+  <File Type="OPT-DCP" Name="all_adder_opt.dcp"/>
+  <File Type="OPT-DRC" Name="all_adder_drc_opted.rpt"/>
+  <File Type="OPT-TIMING" Name="all_adder_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="all_adder_pwropt.dcp"/>
+  <File Type="PWROPT-TIMING" Name="all_adder_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="all_adder_placed.dcp"/>
+  <File Type="PLACE-IO" Name="all_adder_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="all_adder_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="all_adder_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="all_adder_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="all_adder_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="all_adder_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="all_adder_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="all_adder_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="all_adder_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="all_adder_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="all_adder_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="all_adder_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="all_adder_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="all_adder_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="all_adder_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="all_adder_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="all_adder_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="all_adder_drc_routed.pb"/>
+  <File Type="BG-BIN" Name="all_adder.bin"/>
+  <File Type="ROUTE-DRC-RPX" Name="all_adder_drc_routed.rpx"/>
+  <File Type="BG-DRC" Name="all_adder.drc"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="all_adder_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-MSK" Name="all_adder.msk"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="all_adder_methodology_drc_routed.rpx"/>
+  <File Type="BG-BGN" Name="all_adder.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="all_adder_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="all_adder_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="all_adder_power_summary_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="all_adder_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="all_adder_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="all_adder_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="all_adder_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="all_adder_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="all_adder_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="all_adder_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="all_adder_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="all_adder_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="all_adder_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="all_adder_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="all_adder_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIT" Name="all_adder.bit"/>
+  <File Type="BITSTR-RBT" Name="all_adder.rbt"/>
+  <File Type="BITSTR-NKY" Name="all_adder.nky"/>
+  <File Type="BITSTR-BMM" Name="all_adder_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="all_adder.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="all_adder.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/bd/all_adder/all_adder.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="all_adder"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/all_adder_xdc.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/all_adder_xdc.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2017"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="all_adder_half_adder_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="all_adder_half_adder_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="all_adder_OR1_0_1"/>
+</GenRun>

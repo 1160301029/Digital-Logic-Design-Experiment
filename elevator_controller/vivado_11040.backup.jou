@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Tue Jun 20 14:38:20 2017
+# Process ID: 11040
+# Current directory: D:/vivado/elevator_controller1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8444 D:\vivado\elevator_controller1\elevator_controller1.xpr
+# Log file: D:/vivado/elevator_controller1/vivado.log
+# Journal file: D:/vivado/elevator_controller1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/vivado/elevator_controller1/elevator_controller1.xpr
+update_compile_order -fileset sources_1

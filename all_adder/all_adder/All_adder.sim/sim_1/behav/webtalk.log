@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Webtalk v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Thu Jun 15 12:16:50 2017
+# Process ID: 9224
+# Current directory: D:/vivado/All_adder/All_adder.sim/sim_1/behav
+# Command line: wbtcv.exe -mode batch -source D:/vivado/All_adder/All_adder.sim/sim_1/behav/xsim.dir/all_adder_sim_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: D:/vivado/All_adder/All_adder.sim/sim_1/behav/webtalk.log
+# Journal file: D:/vivado/All_adder/All_adder.sim/sim_1/behav\webtalk.jou
+#-----------------------------------------------------------
+source D:/vivado/All_adder/All_adder.sim/sim_1/behav/xsim.dir/all_adder_sim_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Thu Jun 15 12:16:50 2017...

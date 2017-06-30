@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Webtalk v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Thu Jun  8 10:54:18 2017
+# Process ID: 8568
+# Current directory: D:/vivado/4_beat_generator/4_beat_generator.sim/sim_1/behav
+# Command line: wbtcv.exe -mode batch -source D:/vivado/4_beat_generator/4_beat_generator.sim/sim_1/behav/xsim.dir/test_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: D:/vivado/4_beat_generator/4_beat_generator.sim/sim_1/behav/webtalk.log
+# Journal file: D:/vivado/4_beat_generator/4_beat_generator.sim/sim_1/behav\webtalk.jou
+#-----------------------------------------------------------
+source D:/vivado/4_beat_generator/4_beat_generator.sim/sim_1/behav/xsim.dir/test_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'D:/vivado/4_beat_generator/4_beat_generator.sim/sim_1/behav/xsim.dir/test_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Thu Jun  8 10:54:22 2017. For additional details about this file, please refer to the WebTalk help file at D:/Xilinx/Vivado/2017.1/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Thu Jun  8 10:54:22 2017...

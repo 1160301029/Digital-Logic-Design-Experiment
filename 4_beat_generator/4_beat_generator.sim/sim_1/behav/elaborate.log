@@ -1,0 +1,28 @@
+Vivado Simulator 2017.1
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2017.1/bin/unwrapped/win64.o/xelab.exe -wto 415304b94b814a03ac5b8415cc2bc316 --debug typical --relax --mt 2 -L xil_defaultlib -L util_vector_logic_v2_0 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_behav xil_defaultlib.test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling module xil_defaultlib.D_trigger
+Compiling module xil_defaultlib.design_1_D_trigger_0_0
+Compiling module xil_defaultlib.design_1_D_trigger_1_0
+Compiling module xil_defaultlib.design_1_D_trigger_2_0
+Compiling module xil_defaultlib.design_1_D_trigger_3_0
+Compiling architecture imp of entity util_vector_logic_v2_0.util_vector_logic [\util_vector_logic(c_operation="...]
+Compiling architecture design_1_util_vector_logic_0_0_arch of entity xil_defaultlib.design_1_util_vector_logic_0_0 [design_1_util_vector_logic_0_0_d...]
+Compiling architecture imp of entity util_vector_logic_v2_0.util_vector_logic [\util_vector_logic(c_operation="...]
+Compiling architecture design_1_util_vector_logic_1_0_arch of entity xil_defaultlib.design_1_util_vector_logic_1_0 [design_1_util_vector_logic_1_0_d...]
+Compiling architecture design_1_util_vector_logic_2_0_arch of entity xil_defaultlib.design_1_util_vector_logic_2_0 [design_1_util_vector_logic_2_0_d...]
+Compiling module xil_defaultlib.design_1
+Compiling module xil_defaultlib.design_1_wrapper
+Compiling module xil_defaultlib.test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_behav

@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Thu Jun  1 10:31:36 2017" VIVADOVERSION="2017.1">
+
+  <SYSTEMINFO ARCH="artix7" DEVICE="7a35t" NAME="all_adder" PACKAGE="csg324" SPEEDGRADE="-1"/>
+
+  <EXTERNALPORTS>
+    <PORT DIR="I" NAME="Ci" SIGIS="undef" SIGNAME="External_Ports_Ci">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="half_adder_0" PORT="A"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="A" SIGIS="undef" SIGNAME="External_Ports_A">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="half_adder_1" PORT="A"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="B" SIGIS="undef" SIGNAME="External_Ports_B">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="half_adder_1" PORT="B"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="S" SIGIS="undef" SIGNAME="half_adder_0_S">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="half_adder_0" PORT="S"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="C" SIGIS="undef" SIGNAME="OR1_0_F">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="OR1_0" PORT="F"/>
+      </CONNECTIONS>
+    </PORT>
+  </EXTERNALPORTS>
+
+  <EXTERNALINTERFACES/>
+
+  <MODULES>
+    <MODULE FULLNAME="/OR1_0" HWVERSION="1.0" INSTANCE="OR1_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="OR1" VLNV="xilinx.com:user:OR1:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="all_adder_OR1_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="A" SIGIS="undef" SIGNAME="half_adder_1_Ci">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="half_adder_1" PORT="Ci"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="B" SIGIS="undef" SIGNAME="half_adder_0_Ci">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="half_adder_0" PORT="Ci"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="F" SIGIS="undef" SIGNAME="OR1_0_F">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="C"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/half_adder_0" HWVERSION="1.0" INSTANCE="half_adder_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="half_adder" VLNV="xilinx.com:user:half_adder:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="all_adder_half_adder_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="A" SIGIS="undef" SIGNAME="External_Ports_Ci">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="Ci"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="B" SIGIS="undef" SIGNAME="half_adder_1_S">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="half_adder_1" PORT="S"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Ci" SIGIS="undef" SIGNAME="half_adder_0_Ci">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="OR1_0" PORT="B"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="S" SIGIS="undef" SIGNAME="half_adder_0_S">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="S"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/half_adder_1" HWVERSION="1.0" INSTANCE="half_adder_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="half_adder" VLNV="xilinx.com:user:half_adder:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="all_adder_half_adder_1_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="A" SIGIS="undef" SIGNAME="External_Ports_A">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="A"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="B" SIGIS="undef" SIGNAME="External_Ports_B">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Ci" SIGIS="undef" SIGNAME="half_adder_1_Ci">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="OR1_0" PORT="A"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="S" SIGIS="undef" SIGNAME="half_adder_1_S">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="half_adder_0" PORT="B"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+  </MODULES>
+
+</EDKSYSTEM>
